@@ -73,10 +73,10 @@ Sample output:
 
 ```
 ── Model Comparison ──────────────────────────────
-  Linear Regression  │ RMSE: 5.194  │ R²: 0.8763
-  Random Forest      │ RMSE: 4.812  │ R²: 0.8932
+  Linear Regression  │ RMSE: 5.317  │ R²: 0.8838
+  Random Forest      │ RMSE: 6.059  │ R²: 0.8491
 
-  ✓  Keeping: Random Forest  (RMSE 4.812, R² 0.8932)
+  ✓  Keeping: Random Forest  (RMSE 5.317, R² 0.8838)
   ✓  Saved model  → model.pkl
   ✓  Saved meta   → model_meta.json
 ```
