@@ -5,6 +5,8 @@ on demographic information and other exam results.
 
 Built with **Python · pandas · scikit-learn · Streamlit**.
 
+🔗 **Live Demo:** [Student Math Score Predictor](https://student-math-score-predictor-yhxxst7samezmffwzx8a4u.streamlit.app)
+
 ---
 
 ## Project Structure
@@ -14,6 +16,7 @@ Built with **Python · pandas · scikit-learn · Streamlit**.
 ├── StudentsPerformance.csv   # Source dataset (1 000 students)
 ├── train_model.py            # Trains LR + RF, picks the winner, saves artefacts
 ├── app.py                    # Streamlit web application
+├── requirements.txt          # Python dependencies
 ├── model.pkl                 # Serialised best model (generated)
 ├── model_meta.json           # Feature metadata & importances (generated)
 └── README.md
